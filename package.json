@@ -1,0 +1,43 @@
+{
+  "name": "sharemyroom",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/johnbekele/sharemyroom#readme",
+  "bugs": {
+    "url": "https://github.com/johnbekele/sharemyroom/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnbekele/sharemyroom.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.8.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "firebase": "^11.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.12.1",
+    "node-cache": "^5.1.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oidc": "^0.1.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.13.1",
+    "socket.io": "^4.8.1"
+  }
+}
